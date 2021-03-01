@@ -16,4 +16,4 @@ const insta_bot = n => {
 };
 
 
-insta_bot(750); // You can change this.
+insta_bot(1750); // You can change this.
