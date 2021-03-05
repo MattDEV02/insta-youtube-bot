@@ -9,8 +9,8 @@ const insta_bot = n => {
       like = null , 
       arrow = null;
    window.setInterval(() => { 
-      cuore = s(classes[0],1) ; 
-      freccia = s(classes[1]); 
+      like = s(classes[0],1) ; 
+      arrow = s(classes[1]); 
       trigger_click([like,arrow]);
    }, n);
 };
