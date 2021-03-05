@@ -15,17 +15,13 @@ const insta_bot = n => {
    }, n);
 };
 
-
-insta_bot(2000); // You can change this.
-
-/*
-
 const youtube_bot = n => {
-   let dislike = document.querySelectorAll('.yt-simple-endpoint')[10];
+   let dislike = s('.yt-simple-endpoint',10);
    window.setInterval(() => dislike.click(),n);
 };
 
+//insta_bot(2000); 
 
-youtube_bot(75);
+//youtube_bot(75);
 
-*/
+
